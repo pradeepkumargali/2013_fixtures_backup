@@ -1,7 +1,7 @@
 <?php
 require 'scraperwiki.php';
 require 'scraperwiki/simple_html_dom.php';
-$iplSeries="2013";
+$iplSeries="2014";
 //$html_content= scraperWiki::scrape("http://www.thatscricket.com/indian-premier-league/".$iplSeries."/");
 ScraperWiki::attach("sqads", "src");
 //$playerIds=scraperwiki::select("distinct player_id from src.data desc");
