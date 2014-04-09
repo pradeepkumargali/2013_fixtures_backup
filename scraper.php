@@ -27,7 +27,7 @@ if(strpos($json_content,"The page is not found") === FALSE){
      
         var_dump($match);
         // Prepare Overall Record
-        if(array_key_exists('team1', $match))
+        if(array_key_exists('team1', $match)){
         $allrecord=array(
                 'matchId'=> $match["matchId"]["name"],
                 'venueCity'=> $match["venue"]["city"],
@@ -37,7 +37,8 @@ if(strpos($json_content,"The page is not found") === FALSE){
                     
                 );
         
-        scraperwiki::save_sqlite(array('matchId','venueCity'), $allrecord); 
+         scraperwiki::save_sqlite(array('matchId','venueCity'), $allrecord); 
+         }
         }
 
 }
