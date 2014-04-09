@@ -25,7 +25,7 @@ if(strpos($json_content,"The page is not found") === FALSE){
         // PLAYER DATA
         foreach ($myMatchData["schedule"] as $match){
      
-        var_dump($match);
+        //var_dump($match);
         // Prepare Overall Record
         if(array_key_exists('team1', $match)){
         $allrecord=array(
