@@ -11,7 +11,7 @@ while($matchNId<=1){
 //Carrer Stats http://dynamic.pulselive.com/test/data/core/cricket/careerStats/1_careerStats.js?_1363343668516=
 //http://dynamic.pulselive.com/dynamic/data/core/cricket/2012/ipl2012/ipl2012-70/scoring.js?_1364576135590=
 //http://dynamic.pulselive.com/dynamic/data/core/cricket/2012/ipl2013/matchSchedule2.js?_1364793413209=
-$json_content= scraperWiki::scrape("http://dynamic.pulselive.com/dynamic/data/core/cricket/2012/ipl2013/matchSchedule2.js?_1364793413209=");
+$json_content= scraperWiki::scrape("http://dynamic.pulselive.com/dynamic/data/core/cricket/2012/ipl2014/matchSchedule2.js?_1364793413209=");
 
 //print "JSON".$json_content;
  
