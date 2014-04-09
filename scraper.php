@@ -37,7 +37,7 @@ if(strpos($json_content,"The page is not found") === FALSE){
                     
                 );
         
-         scraperwiki::save_sqlite(array('matchId','venueCity'), $allrecord); 
+         scraperwiki::save(array('matchId','venueCity'), $allrecord); 
          }
         }
 
